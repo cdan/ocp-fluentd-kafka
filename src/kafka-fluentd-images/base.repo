@@ -1,0 +1,20 @@
+[extra]
+name = extra
+baseurl = http://192.168.182.152:8008/repo/rhel-7-server-extras-rpms
+enable = 1
+gpgcheck = 0
+[base]
+name = base
+baseurl = http://192.168.182.152:8008/repo/rhel-7-server-rpms
+enable = 1
+gpgcheck = 0
+[ose]
+name = ose
+baseurl = http://192.168.182.152:8008/repo/rhel-7-server-ose-3.4-rpms
+enable = 1
+gpgcheck = 0
+[optional]
+name = optional
+baseurl = http://192.168.182.152:8008/repo/rhel-7-server-optional-rpms
+enable = 1
+gpgcheck = 0
